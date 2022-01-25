@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 const CounterApp = ({ value = 10}) => {
 
-    const [counter, setCounter] = useState(0); // useState retrona un arreglo con dos valores
+    const [counter, setCounter] = useState(value); // useState retrona un arreglo con dos valores
 
  /*    const handleAdd = (e) =>{
         console.log(e)
